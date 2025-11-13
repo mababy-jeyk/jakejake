@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9fafb;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark body,
+.dark {
+  background: #121212;
+  color: #f9f9f9;
+}
+
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.socials a {
+  margin: 0 0.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.projects {
+  padding: 2rem;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.dark .project-card {
+  background: #1e1e1e;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.tags span {
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.repo-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.contact {
+  padding: 2rem;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
